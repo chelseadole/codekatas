@@ -63,6 +63,23 @@ print(f"{person['name'].lower()} is my name lowercase.") # "chelsea is my name l
 print(f"{2 * 2} is 4.") # "4 is 4"
 
 ```
+
+```python
+# Removing a character from a string. Strings are immutable, so you have to create a new one.
+a = "chelsea"
+new_a = a.replace("e") # "chlsa"
+```
+
+```python
+# Remove whitespace from a string
+a = "  alex is the best  "
+
+# Remove ALL whitespace
+a.replace(" ", "") # "alexisthebest"
+
+# Remove only trailing or leading whitespace
+a.strip() # "alex is the best"
+```
 **Integers**
 
 **Floats**
