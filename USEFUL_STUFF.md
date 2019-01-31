@@ -49,7 +49,7 @@ string2.split() # ["hello", "world"]
 
 ```python
 # Formatting values into string
-cost, name = 500, "Alex"
+name, cost = "Alex", 500
 
 # .format()
 print("{}'s plane tickets will cost ${}.".format(name, cost)) # "Alex's plane tickets will cost $500."
