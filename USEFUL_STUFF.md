@@ -27,6 +27,11 @@ my_list = ['a', 'b', 'c']
 ```
 
 **Dictionaries**
+```python
+# Getting a value from a dict by key
+my_dict = {1: "hi", 2: "hello"}
+my_dict.get(1, "This is what prints if key doesn't exist")
+```
 
 **String Manipulation**
 

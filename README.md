@@ -1,2 +1,3 @@
 # codekatas
-Coding practice to stay fresh. :)
+
+Coding practice from Code Wars. 
