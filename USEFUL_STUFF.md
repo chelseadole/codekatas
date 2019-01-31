@@ -72,7 +72,7 @@ print(f"{2 * 2} is 4.") # "4 is 4"
 ```python
 # Removing a character from a string. Strings are immutable, so you have to create a new one.
 a = "chelsea"
-new_a = a.replace("e") # "chlsa"
+new_a = a.replace("e", "") # "chlsa"
 ```
 
 ```python
