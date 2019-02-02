@@ -14,8 +14,8 @@ colors = ['G', 'B', 'R']
 
 def triangle(row):
     """Find ending triangle colour."""
-    next_row = ""
     while len(row) > 1:
+        next_row = ""
         for i in range(len(row) - 1):
             col_1, col_2 = row[i], row[i + 1]
             if col_1 == col_2:
@@ -23,5 +23,5 @@ def triangle(row):
             else:
                 missing_color = [x for x in colors if x not in [col_1, col_2]]
                 next_row += missing_color[0]
-        row, next_row = next_row, ""
+        row = next_row
     return row
