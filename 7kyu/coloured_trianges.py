@@ -17,7 +17,7 @@ def triangle(row):
     next_row = ""
     while len(row) > 1:
         for i in range(len(row) - 1):
-            col_1, col_2 = row[i], row[i+1]
+            col_1, col_2 = row[i], row[i + 1]
             if col_1 == col_2:
                 next_row += col_1
             else:
